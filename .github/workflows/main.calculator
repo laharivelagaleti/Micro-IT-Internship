@@ -10,13 +10,13 @@ public class Calculator {
         System.out.println("3. Multiply");
         System.out.println("4. Divide");
 
-        System.out.print("Enter choice (1/2/3/4): ");
+        System.out.println("Enter choice (1/2/3/4): ");
         int choice = scanner.nextInt();
 
-        System.out.print("Enter first number: ");
+        System.out.println("Enter first number: ");
         double num1 = scanner.nextDouble();
 
-        System.out.print("Enter second number: ");
+        System.out.println("Enter second number: ");
         double num2 = scanner.nextDouble();
 
         double result;
